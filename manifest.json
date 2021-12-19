@@ -14,7 +14,7 @@
                 "style.css"
             ],
             "matches": [
-                "https://bj-share.info/"
+                "https://bj-share.info/*"
             ]
         }
     ]    
