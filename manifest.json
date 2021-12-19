@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "bj-hide",
+    "description" : "Hello World",
+    "author": "Bruno Felipe",
+    "browser_action":{
+       "default_title": "bj-hide",
+       "default_popup": "index.html"    
+    },
+    "content_scripts":[
+        {
+            "css":[
+                "style.css"
+            ],
+            "matches": [
+                "https://bj-share.info/"
+            ]
+        }
+    ]    
+}
